@@ -1,0 +1,14 @@
+{
+  "name": "kubernetes-showcase-app",
+  "version": "1.0.0",
+  "description": "A basic Node.js app for showcasing Kubernetes deployment skills.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Sheesh Mohsin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

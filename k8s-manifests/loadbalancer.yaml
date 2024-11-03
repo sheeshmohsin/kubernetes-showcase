@@ -1,0 +1,14 @@
+# k8s-manifests/loadbalancer.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: kubernetes-showcase-lb
+spec:
+  type: LoadBalancer
+  selector:
+    app: kubernetes-showcase-app
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
+

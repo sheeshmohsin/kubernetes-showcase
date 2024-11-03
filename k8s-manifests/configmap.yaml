@@ -1,0 +1,9 @@
+# k8s-manifests/configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kubernetes-showcase-config
+data:
+  APP_ENV: "development"
+  LOG_LEVEL: "info"
+
